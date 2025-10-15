@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\building-blocks\OnlineShop.Persistence.Abstractions\OnlineShop.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\building-blocks\OnlineShop.SharedKernel\OnlineShop.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
